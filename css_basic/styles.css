@@ -3,6 +3,9 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
 }
 
 main {
@@ -14,14 +17,75 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
+  padding: 1rem;
+  background-color: #ffffff;
 }
 
 aside {
   flex: 1;
   overflow-y: auto;
+  padding: 1rem;
+  background-color: #f1f1f1;
 }
 
 header, footer {
-  background: #eee;
+  background: #4CAF50;
   padding: 1rem;
+  color: white;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #4CAF50;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th {
+  background-color: #e0e0e0;
+  padding: 0.5rem;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
 }
