@@ -1,0 +1,131 @@
+/* Reset and base setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+/* HEADER STYLES */
+header {
+  position: absolute;
+  width: 100%;
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav img {
+  height: 30px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* BANNER SECTION */
+main section:first-of-type {
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(50, 50, 50, 0.3)), 
+              url('./images/banner-bg.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+main section:first-of-type h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+main section:first-of-type span {
+  margin: 0 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+main section:first-of-type button {
+  margin-top: 30px;
+  padding: 15px 40px;
+  background: #C271FF;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+main section:first-of-type button:hover {
+  background: #a250e0;
+}
+
+/* PROS SECTION */
+main section:first-of-type h2 {
+  font-weight: 300;
+  margin-top: 80px;
+  font-size: 24px;
+  color: #fff;
+}
+
+main section:first-of-type h2 span {
+  color: #C271FF;
+}
+
+/* Pro Cards (optional base layout) */
+.pros {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.pros .card {
+  text-align: center;
+  max-width: 160px;
+}
+
+.pros .card img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.pros .card h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.pros .card p {
+  font-size: 14px;
+  font-style: italic;
+  color: #D8D8D8;
+}
