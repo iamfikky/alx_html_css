@@ -336,3 +336,41 @@ main section:first-of-type h2 span {
 .register-btn:hover {
     background-color: #A855F7;
 }
+
+/* FAQ Section */
+.faq-section {
+    background-color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.faq-section h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 60px;
+    letter-spacing: 0.1em;
+    color: #0F172A;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0F172A;
+    margin-bottom: 12px;
+}
+
+.faq-item p {
+    font-size: 0.875rem;
+    color: #64748B;
+    line-height: 1.6;
+}
