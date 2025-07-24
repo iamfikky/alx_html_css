@@ -129,3 +129,49 @@ main section:first-of-type h2 span {
   font-style: italic;
   color: #D8D8D8;
 }
+
+/* === QUOTE SECTION === */
+:root {
+  --primary: #C271FF;
+  --light-text: #D8D8D8;
+}
+
+.quote-section {
+  background-color: var(--primary);
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.quote-container img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote-text {
+  max-width: 600px;
+}
+
+.quote-text blockquote {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.quote-text h3 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.quote-text p {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 5px;
+}
