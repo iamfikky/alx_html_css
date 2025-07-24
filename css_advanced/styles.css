@@ -270,3 +270,69 @@ main section:first-of-type h2 span {
   margin-left: 15px;
   margin-top: 5px;
 }
+
+/* Membership Section */
+.membership-section {
+    background-color: #0F172A;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.membership-section h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #E2E8F0;
+    margin-bottom: 40px;
+}
+
+.membership-section h2 span {
+    color: #C084FC;
+    font-weight: 700;
+}
+
+.membership-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.icon-block {
+    max-width: 180px;
+}
+
+.icon-block img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.icon-block h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #E2E8F0;
+    margin-bottom: 8px;
+}
+
+.icon-block p {
+    font-size: 0.875rem;
+    color: #94A3B8;
+}
+
+.register-btn {
+    background-color: #C084FC;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #A855F7;
+}
